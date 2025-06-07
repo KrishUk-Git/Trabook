@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
@@ -19,9 +20,9 @@ button:hover {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 5rem;
+    gap: 2rem;
     margin: 10px;
     padding: 10px;
 
@@ -99,7 +100,7 @@ button:hover {
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 
 
 }
@@ -863,13 +864,11 @@ hr {
     font-family: poppins;
     font-size: 16px;
     justify-content: space-around;
-    margin: 10px;
-    padding: 10px;
 }
 
 
 
-@media(max-width:790px) {
+@media(max-width:600px) {
     body {
         margin: 0%;
         padding: 0%;
@@ -893,10 +892,10 @@ hr {
         gap: 1.5rem;
         flex-direction: column;
         justify-content: center;
-        background-color: #F7F8FC;
+        background-color: #f8e0bf;
         width: auto;
         padding: 20px;
-
+        margin-top: 0;
     }
 
     .logo {
@@ -1028,6 +1027,8 @@ hr {
     .selectbut{
         font-size: 25px;
         font-weight: 500;
+        color: black;
+        
     }
     .boxtext{
         font-size: 20px;
@@ -1070,7 +1071,7 @@ hr {
        position: absolute;
        top: 270px;
        width: auto;
-         height: auto;
+       height: auto;
     }
     .icon{
         width: auto;
@@ -1097,11 +1098,18 @@ hr {
         line-height: 30px;
         margin: 10px;
     }
+    .arrbut>button{
+        position: relative;
+        width: auto;
+        left: 80px;
+    }
     .grid3{
+        display: flex;
         flex-wrap: wrap;
+        gap: 1rem;
         width: auto;
         height: auto;
-        margin: 0;
+        margin: 50px 0;
         padding: 0;
     }
      .icon2>div>h3 {
@@ -1125,18 +1133,195 @@ hr {
         text-align: center;
         margin: 50px;
     }
-    .fifthhero,
-    .sixthhero,
-    .bgcolor,
-    .bgfoot,
-    .end {
+    .fourthhero>h3 {
+        font-size: 48px;
+        line-height: 54px;
+        font-weight: 600;
+        margin: 10px;
+        padding: 10px;
+    }   
+    .fourthhero>p {
+        
+        font-size: 18px;
+        font-weight: 500;
+        color: #666666;
+        text-align: left center;
+    }   
+    #trees{
+        position: absolute;
+        width: auto;
+        left: 550px;
+
+    }
+    .fifth-hero-cont{
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        
+        
+    }
+    .fifth-hero-left>h3{
+        font-size: 48px;
+        font-weight: 600;
+        width: auto;
+        height: auto;
+    }
+    .fifth-hero-left>p{
+        font-size: 20px;
+        line-height: 30px;
+        width: auto;
+        height: auto;
+    }
+    .fifth-hero-right {
+        position: relative;
+        bottom: 10px;
+        left: 25px;
+        margin: 10px;
+        width: auto;
+        height: auto;
+    }
+    .aero{
         display: none;
     }
+    .card>p{
+        font-size: 20px;
+        width: auto;
+        height: auto;
+    }
+    .sixthhero{
+        margin: 50px;
+    }
+    .six>h2 {
+        font-size: 48px;
+        font-weight: 800;
+        margin: 10px;
 
+    }
+    .box2{
+        flex-wrap: wrap;
+    }
+    .box2>div>h5 {
+        font-size: 20px;
+        font-weight: 500;
+    }   
+    .box2>div>p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .footer{
+        width: auto;
+        height: auto;
+    }
+    .bgfoot{
+        width: auto;
+    }
+   .banner{
+        width: auto;
+        height: auto;
+        background-image: url(assets/Subscribe.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        border-radius: 1px;
+        position: relative;
+        left: 0px;
+        z-index: 1;
+    }
+    .banner>h2 {
+        font-size: 45px;
+        font-weight: 500;
+        color: white;
+        width: auto;
+        position: relative;
+        left: 0px;
+        margin: 15px;
+        
+
+    }
+    .Subscribe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: auto;
+        position: relative;
+        left: 0px;
+        background-color: white;
+        border-radius: 10px;
+        margin: 50px;
+        font-size: 20px;
+    }
+
+
+    .banner>h2 {
+        font-size: 30px;
+        width: auto;
+        position: relative;
+        left: 0px;
+
+    }
+
+    .bgcolor {
+        width: auto;
+    }
+    footer{
+        position: relative;
+        top: 20px;
+    }
+    .footbase {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        z-index: 0;
+        height: auto;
+        width: 80%;   
+    }
+    .footerlogo{
+        
+        height: auto;
+        margin: 10px;
+        padding-top: 15px;
+        position: relative;
+        left: 60px;
+    }
+    .footerlogo>h5 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .end{
+        padding: 30px 0;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        width: auto;
+        margin: 10px;
+    }
+    .menu{
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+        width: auto;
+        height: auto;
+        position: relative;
+        bottom: 30px;
+    }
+    .menu>div>h5 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .menu>div>p {
+        font-size: 16px;
+        font-weight: 300;
+    }
     hr {
-        display: none;
+        position: static;
+        width: 100%;
+        margin: 10px;
     }
-
-
-
 }

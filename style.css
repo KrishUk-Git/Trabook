@@ -20,7 +20,7 @@ button:hover {
 
 .navbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     gap: 2rem;
     margin: 10px;
@@ -100,7 +100,8 @@ button:hover {
 
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 50px;
 
 
 }

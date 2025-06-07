@@ -845,7 +845,8 @@ button:hover{
         font-size: 25px;
         }
     .righthero>img{
-        display: none;
+        display: grid;
+        
     }
     .thirdhero,.fourthhero,.fifthhero,.sixthhero,footer,.secondhero,.bgcolor,.bgfoot{
         display: none;

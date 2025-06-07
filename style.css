@@ -3,11 +3,15 @@
     padding: 0;
 }
 
-body{
+body {
     background-color: #FEFCFB !important;
 }
 
-button:hover{
+div {
+    text-shadow: .5px .5px 1px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
     cursor: pointer;
     transition: .3s;
 }
@@ -20,7 +24,7 @@ button:hover{
     gap: 5rem;
     margin: 10px;
     padding: 10px;
-    
+
 }
 
 .logo {
@@ -83,7 +87,8 @@ button:hover{
     border: 1px solid #FA7436;
     border-radius: 5px;
 }
-.user>button:hover{
+
+.user>button:hover {
     background-color: white;
     color: #FA7436;
     border: 1px solid #FA7436;
@@ -109,7 +114,7 @@ button:hover{
     height: 210px;
     margin: 10px;
     padding: 10px;
-
+    font-weight: 800;
 }
 
 .lefthero>h2>span {
@@ -117,7 +122,8 @@ button:hover{
 }
 
 .lefthero>p {
-    font-family: volkhov;
+    font-family: poppins;
+    line-height: 32px;
     font-size: 20px;
     color: #666666;
     width: 497px;
@@ -139,11 +145,13 @@ button:hover{
     margin: 20px;
     padding: 10px;
 }
+
 .lefthero>button:hover {
     background-color: #FA7436;
     color: white;
     border: 1px solid #FA7436;
 }
+
 .righthero {
     display: flex;
 }
@@ -161,8 +169,8 @@ button:hover{
 }
 
 .selectbox {
-    /* display: grid;
-    grid-template-columns: repeat(4,1fr); */
+
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -184,12 +192,14 @@ button:hover{
     border-radius: 5px;
     border: 1px solid #FA7436;
 }
+
 .but1:hover {
     background-color: white;
     color: #FA7436;
     border: 1px solid #FA7436;
-    
+
 }
+
 #butt {
     background-color: white;
 }
@@ -461,7 +471,7 @@ button:hover{
 
 
 
-.fifth-hero-cont{
+.fifth-hero-cont {
     display: flex;
     justify-content: center;
     gap: 80px;
@@ -470,15 +480,17 @@ button:hover{
     background-color: #F7F8FC;
     padding-top: 100px;
 }
-.aero{
+
+.aero {
     width: 168.56px;
     height: 188.05;
     position: relative;
     bottom: 500px;
     left: 1260px;
-    
+
 }
-.fifth-hero-left{
+
+.fifth-hero-left {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -486,68 +498,77 @@ button:hover{
     text-align: top;
     width: 394px;
     height: 268px;
-    margin: 10px;    
+    margin: 10px;
 }
+
 .fifth-hero-left>h3 {
     font-family: volkhov;
     font-size: 48px;
     font-weight: 600;
     width: 387px;
     height: 108px;
-    
-    
+
+
 }
+
 .fifth-hero-left>h3>span {
     color: #FA7436;
 }
-.fifth-hero-left>p{
+
+.fifth-hero-left>p {
     font-family: roboto;
     font-size: 16px;
 }
 
-.arrbut{
+.arrbut {
     display: flex;
     justify-content: end;
     position: relative;
     right: 290px;
 }
-.arrow>button{
+
+.arrow>button {
     width: 40px;
     height: 40px;
     border: 0.5px solid black;
     border-radius: 100%;
-    background-color: white;    
+    background-color: white;
     margin: 10px;
     border: 0.2px solid black;
     opacity: 20%;
-    
+
 }
-.arrow>button:hover{
-    
+
+.arrow>button:hover {
+
     background-color: #FA7436;
     cursor: pointer;
     border: .5px solid white;
     opacity: 80%;
 }
-.arrow>button>span:hover{
+
+.arrow>button>span:hover {
     color: white;
 }
-.arrow>button>span{
+
+.arrow>button>span {
     color: black;
 }
-.fifth-hero-right{
+
+.fifth-hero-right {
     position: relative;
     bottom: 50px;
     margin: 10px;
 }
+
 .fifth-hero-card {
     font-family: poppins;
-    
+
 
     margin: 80px;
     align-items: top;
 
-    
+
 
 }
 
@@ -560,9 +581,10 @@ button:hover{
 .fifth-hero-card>h5 {
     font-size: 18px;
     font-weight: 600;
-    
+
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -571,115 +593,135 @@ button:hover{
     border-radius: 10px;
     width: 504px;
     height: 245px;
-    
+
     align-items: start;
     font-family: poppins;
-    
+
 }
-.card>img{
+
+.card>img {
     position: absolute;
     z-index: 3;
     top: -40px;
     left: -40px;
 }
-.card>p{
+
+.card>p {
     font-size: 16px;
     margin: 15px 40px;
     width: 402px;
     height: 96px;
 }
-.card>div{
+
+.card>div {
     margin: 0px 40px;
 }
-.card>div>h5{
+
+.card>div>h5 {
     font-size: 18;
     font-weight: 600;
-    
+
 }
-.card>div>p{
+
+.card>div>p {
     font-size: 16px;
-    
+
 }
-.front{
+
+.front {
     z-index: 2;
     position: absolute;
 }
-.back{
-    position:  relative;
+
+.back {
+    position: relative;
     top: 70px;
     left: 50px;
     z-index: 1;
     opacity: 50%;
 }
 
-.six{
+.six {
     display: flex;
     justify-content: center;
 }
-.six>h2{
+
+.six>h2 {
 
     font-family: volkhov;
     font-size: 48px;
     font-weight: 800px;
 }
-.six>h2>span{
+
+.six>h2>span {
     color: #FA7436;
 }
-.gridbut{
+
+.gridbut {
     display: flex;
     justify-content: center;
-    margin-bottom:800x
+    margin-bottom: 800x
 }
-.grid3{
+
+.grid3 {
     font-family: poppins;
 
 }
-.box2>div{
-    text-align:left;
+
+.box2>div {
+    text-align: left;
 }
-.box2>div>h5{
+
+.box2>div>h5 {
     font-size: 18px;
     font-weight: 500;
     width: 244px;
     height: 52px;
     margin: 15px;
 }
-.box2>div>p{
+
+.box2>div>p {
     font-size: 16px;
     font-family: inter;
     margin: 15px;
 }
-.footer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        color: black;
-        margin-top: 200px;
-        
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    margin-top: 200px;
+
 
 }
-.logo{
+
+.logo {
     cursor: pointer;
 }
-.icon2:hover{
-    
+
+.icon2:hover {
+
     cursor: pointer;
-    box-shadow: 0px 3px 20px #FA7436 ;
+    box-shadow: 0px 3px 20px #FA7436;
     transition: 0.3s;
-    
+
 }
-.box2:hover{
-    
+
+.box2:hover {
+
     cursor: pointer;
-    box-shadow: 0px 1px 10px #FA7436 ;
-    
+    box-shadow: 0px 1px 10px #FA7436;
+
 }
-.bgfoot{
+
+.bgfoot {
     background-color: #ffffff !important;
-    
+
 }
-.banner{
-    background-image:url(assets/Subscribe.png);
+
+.banner {
+    background-image: url(assets/Subscribe.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -688,14 +730,15 @@ button:hover{
     text-align: center;
     border-radius: 1px;
     width: 1050px;
-    position:relative ;
+    position: relative;
     bottom: 150px;
     left: 270px;
-    
-    
-    
+
+
+
 }
-.banner>h2{
+
+.banner>h2 {
     font-family: volkhov;
     font-size: 48px;
     font-weight: 500;
@@ -704,10 +747,11 @@ button:hover{
     position: relative;
     left: 200px;
     margin: 15px;
-    
-    
+
+
 }
-.bgcolor{
+
+.bgcolor {
     background-color: #222222;
     width: 100%;
     height: 160px;
@@ -715,91 +759,106 @@ button:hover{
     position: relative;
     top: 210px;
 }
-.Subscribe{
+
+.Subscribe {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     width: 674px;
-    
+
     position: relative;
     left: 170px;
     background-color: white;
     border-radius: 10px;
     margin: 50px;
 }
-.Subscribe>div>span{
+
+.Subscribe>div>span {
     position: relative;
     top: 7.5px;
     color: #C4C4C4;
 }
-.Subscribe>div>input{
+
+.Subscribe>div>input {
     border: 0 !important;
     height: 50px;
     width: 400px;
 }
-.Subscribe>div>button{
+
+.Subscribe>div>button {
     width: 132px;
     height: 50px;
     background-color: #FA7436;
     color: white;
     border-radius: 10px;
     border: 0px;
-    
+
 }
-.Subscribe>div>button:hover{
+
+.Subscribe>div>button:hover {
     background-color: white;
     color: #FA7436;
     border: 1px solid #FA7436;
 }
-.footbase{
+
+.footbase {
     display: flex;
     background-color: white;
     justify-content: space-evenly;
-    gap:4rem;
+    gap: 4rem;
 }
-.footerlogo{
+
+.footerlogo {
     width: 254px;
     height: 176px;
 }
-.footerlogo>h5{
+
+.footerlogo>h5 {
     font-family: volkhov;
     font-size: 24px;
     font-weight: 600;
 }
-.footerlogo>p{
+
+.footerlogo>p {
     font-family: poppins;
     font-size: 16px;
     font-weight: 400;
 }
-.menu{
+
+.menu {
     display: flex;
     font-family: poppins;
     gap: 2rem;
 }
-.menu>div{
+
+.menu>div {
     position: relative;
     left: 70px;
 }
-.menu>div>h5{
+
+.menu>div>h5 {
     font-size: 18px;
     font-weight: 600;
-    
+
 }
-.menu>p{
+
+.menu>p {
     font-size: 16px;
     font-weight: 300;
 }
-.menu>div>p{
+
+.menu>div>p {
     margin: 3px
 }
-hr{
-    
+
+hr {
+
     position: relative;
-    
+
 }
 
-.end{
+.end {
     display: flex;
     font-family: poppins;
     font-size: 16px;
@@ -810,73 +869,274 @@ hr{
 
 
 
-@media(max-width:750px){
-    body{
-        width: 100%;
-        background-color: #F7F8FC !important;
+@media(max-width:790px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+        background-color: #FEFCFB !important;
+        text-align: center;
     }
 
-    nav{
-        
+    .container {
+        margin: 0;
+        padding: 0 50px;
+        height: auto;
+        width: 100vh;
+        display: flex;
         flex-direction: column;
-        
-        height: 150px;
-        
+        justify-content: center;
+        align-items: center;
     }
-    .logo{
+
+    .navbar {
+        display: flex;
+        gap: 1.5rem;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #F7F8FC;
+        width: auto;
+        padding: 20px;
+
+    }
+
+    .logo {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 0 50%;
-        margin: 10px;
-    }
-    #trabook{
-        font-size: 48px;
-    }
-    .logo>img{
-        width: 35px;
+        margin: 50px;
         position: relative;
-        right: 150px;
-    }
-    .menu{
-        justify-content: center;
-        width: 100%;
-        margin: 15px;
-    }
-    .menu>ul>a{
-        font-size: 20px;
-    }
-    .user{
-        position: relative;
-        left: 5px;
-    }
-    .user>a{
-        font-size: 20px;
-        position: relative;
-        left: 20px;
+        right: 50px;
+
     }
 
-    .user>button{
-        font-size: 20px;
-    }
-    
-    .lefthero>h2{
-        font-size: 35px;
+    #trabook {
+        font-size: 80px;
+        font-weight: 700;
+        height: auto;
         
     }
-    .lefthero>p{
+
+    #logo {
+        width: 50px;
+        position: relative;
+        right: 180px;
+    }
+
+    .menu {
+        flex-direction: row;
+        display: flex;
+        width: auto;
+        justify-content: space-evenly;
+        width: auto;
+        margin: auto;
+        margin: 50px 0;
+    }
+
+    .menu>ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 1.5rem;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+
+    .menu>ul>a {
+        font-size: 30px;
+
+        border: 1px solid #FA7436;
+        padding: 10px;
+        ;
+    }
+
+    .user {
+        position: relative;
+        left: 15px;
+        align-items: center;
+        height: auto  ;
+        width: auto;
+        margin-bottom: 50px;
+    }
+
+    .user>a {
+        font-size: 30px;
+        font-family: poppins;
+        color: #FD8D3A;
+        align-items: center;
+
+    }
+
+    .user>button {
+        font-size: 30px;
+        font-family: 100 poppins;
+        padding: 0 15px;
+        width: auto;   
+    }
+
+    .hero {
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 50px;
+    }
+
+    .lefthero {
+        width: auto;
+        height: auto;
+    }
+
+    .lefthero>h2 {
+        font-size: 64px;
+        line-height: auto;
+        width: auto;
+        height: auto;
+    }
+
+    .lefthero>p {
+        font-size: 30px;
+        line-height: 40px;
+        width: auto;
+        height: auto;
+    }
+
+    .lefthero>button {
+        width: auto;
+        height: auto;
+        font-size: 30px;
+        padding: 10px 20px;
+    }
+
+    .righthero {
+        display: none;
+
+
+    }
+
+    .selectbox {
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        
+    }
+    .centergrid{
+        
+        width: auto;
+        height: auto;
+    }
+    .selectbut{
         font-size: 25px;
-        }
-    .righthero>img{
-        display: grid;
-        
+        font-weight: 500;
     }
-    .thirdhero,.fourthhero,.fifthhero,.sixthhero,footer,.secondhero,.bgcolor,.bgfoot{
+    .boxtext{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .header{
+        width: 100vh;
+        background-color: #F7F8FC;
+    }
+    #sch{
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        right: 35px;
+    }
+    .secondgrid{
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;                
+        padding: 15px;
+        width: auto;
+        gap: 2rem;
+        height: auto;
+        margin-top: 250px;
+    }
+
+    #sch>h2{
+        font-size: 60px;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    #sch>p {
+        font-size: 25px;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    #secheroimg {
+       position: absolute;
+       top: 270px;
+       width: auto;
+         height: auto;
+    }
+    .icon{
+        width: auto;
+        height: auto;
+        text-align: start;
+        padding: 40px;
+
+    }
+    .icon>h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .icon>p {
+        font-size: 20px;
+        line-height: 30px;
+    }   
+    .thirdhero>h2 {
+        font-size: 48px;
+        font-weight: 800;
+        margin: 10px;
+    }   
+    .thirdhero>p {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 10px;
+    }
+    .grid3{
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+     .icon2>div>h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .icon2>div>p {
+        font-size: 25px;
+        line-height: 30px;
+    }  
+    .arrow>button{
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+        border-radius: 100%;
+        margin: 50px 10px;
+    }
+    .fourthhero{
+        width: auto;
+        height: auto;
+        text-align: center;
+        margin: 50px;
+    }
+    .fifthhero,
+    .sixthhero,
+    .bgcolor,
+    .bgfoot,
+    .end {
+        display: none;
+    }
+
+    hr {
         display: none;
     }
 
 
 
 }
-
-

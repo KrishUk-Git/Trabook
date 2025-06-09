@@ -22,7 +22,7 @@ button:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     margin: 10px;
     padding: 10px;
 
@@ -97,7 +97,8 @@ button:hover {
 
 .hero {
     margin: 50px;
-
+    position: relative;
+    left: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -869,12 +870,13 @@ hr {
 
 
 
-@media(max-width:600px) {
+@media(max-width:768px) {
     body {
         margin: 0%;
         padding: 0%;
         background-color: #FEFCFB !important;
         text-align: center;
+        zoom: 100%;
     }
 
     .container {
@@ -975,7 +977,7 @@ hr {
     }
 
     .hero {
-        flex-wrap: wrap;
+        
         text-align: center;
         margin: 50px;
     }
@@ -983,6 +985,8 @@ hr {
     .lefthero {
         width: auto;
         height: auto;
+        position: relative;
+        right: 60px;
     }
 
     .lefthero>h2 {
